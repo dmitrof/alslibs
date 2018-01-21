@@ -1,0 +1,24 @@
+{
+  "name": "alslibs",
+  "version": "1.0.0",
+  "description": "libraries for dmitrof's adaptive learning system",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dmitrof/alslibs.git"
+  },
+  "keywords": [
+    "adaptive",
+    "learning",
+    "system"
+  ],
+  "author": "dmitrof94",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dmitrof/alslibs/issues"
+  },
+  "homepage": "https://github.com/dmitrof/alslibs#readme"
+}
