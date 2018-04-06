@@ -4,7 +4,7 @@
 var http = require("http");
 
 
-module.exports.requestService = function(options)
+let requestService = function(options)
 {
     console.log("rest::getJSON");
     return new Promise((resolve, reject) => {
@@ -31,4 +31,9 @@ module.exports.requestService = function(options)
         req.end();
     });
 
+};
+
+module.exports = {
+    nodeUtils : require('./util/nodeUtils'),
+    requestService : requestService,
 };
